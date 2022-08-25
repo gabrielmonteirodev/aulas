@@ -2,7 +2,7 @@ Algoritmo "senha_fixa"
 
 Var
 
-   senha, fixa :inteiro
+   senha:inteiro
 
 
 Inicio
@@ -10,9 +10,8 @@ Inicio
       escreva("Digite a senha: ")
       leia(senha)
       
-      fixa <- 2312
       
-      enquanto senha<>fixa faca
+      enquanto senha<>2002 faca
           escreva("Senha Invalida! Tente novamente: ")
           leia(senha)
       fimenquanto
